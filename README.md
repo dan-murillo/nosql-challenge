@@ -33,7 +33,7 @@ The top 5 establishments with a `RatingValue` of 5, sorted by lowest hygiene sco
 #### 4. How many establishments in each Local Authority area have a hygiene score of 0?
 The database contained 55 local authorities, and the number of establishments whose hygiene score was 0 varied from 1130 to 1. The local authorities with the most establishments were Thanet, Greenwich, Maidstone, Newham, and Swale with 1130, 882, 713, 711, and 686 establishments respectively. On the contrary, Dorset, Broxbourne, Sunderland, North Norfolk, Reading, and Kensington and Chelsea have the least establishments with a hygiene score of 0, as each of those local authorities has only 1 of that type of establishment. You can find all the numbers per local authority in the Pandas DataFrame `hygiene_0_per_local_authority_df` in the *NoSQL_analysis.ipynb* file.
 
-To sum up, there were 41 establishments with a hygiene score equal to 20, 34 establishments were found to have a `RatingValue` greater than or equal to 4, *Howe and Co Fish and Chips - Van 17* is the closest establishment to 'Penang' that has a `RatingValue` of 5 and the lowest hygiene score, and Thanet is the local authority with the most establishments whose hygiene score is 0. Should the magazine want to write about poor hygiene restaurants, they should look more into the top local authorities listed in question 4. Otherwise, they can look into the restaurants listed in questions 1 and 2.
+To sum up, there were 41 establishments with a hygiene score equal to 20, 34 establishments were found to have a `RatingValue` greater than or equal to 4, *Howe and Co Fish and Chips - Van 17* is the closest establishment to *Penang* that has a `RatingValue` of 5 and the lowest hygiene score, and Thanet is the local authority with the most establishments whose hygiene score is 0. Should the magazine want to write about poor hygiene restaurants, they should look more into the top local authorities listed in question 4. Otherwise, they can look into the restaurants listed in questions 1 and 2.
 
 This repository contains the Python code and the JSON file used to analyse the FSA data.
 
@@ -41,11 +41,11 @@ This repository contains the Python code and the JSON file used to analyse the F
 
 It has the *establishments.json* file, which contains the data that was analysed in this mini-project.
 
-### The *NoSQL_analysis.ipynb* folder:
+### The *NoSQL_analysis.ipynb* file:
 
 It contains the Python code of Part 3, which was used to analyse the non-SQL (MongoDB) database and answer the four questions posed by the magazine.
 
-### The *NoSQL_setup.ipynb* folder:
+### The *NoSQL_setup.ipynb* file:
 
 It has the Python code of Part 1 and 2, which was used to set up the database, update the database, and clean the data.
 
